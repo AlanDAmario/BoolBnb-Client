@@ -6,23 +6,21 @@
       <!-- sinistra -->
       <div class="left flex items-center w-1/3 gap-2 self-start py-2">
         <!-- Logo per la modalità chiara -->
-        <img
-          class="light block dark:hidden hover:scale-105"
-          src="/img/boolbnb-logo.png"
-          alt="Logo"
-          href="/"
-        />
+        <a href="/">
+          <img
+            class="light block dark:hidden hover:scale-105"
+            src="/img/boolbnb-logo.png"
+            alt="Logo"
+          />
+        </a>
         <!-- Logo per la modalità scura -->
-        <img
-          class="dark hidden dark:block hover:scale-105"
-          src="/img/boolbnb-logo.png"
-          alt="Logo Dark Mode"
-        />
-        <a
-          href="/"
-          class="hover:scale-105 text-2xl font-bold text-airbnbcolor hover:text-airbnbcolorhover dark:text-white dark:hover:text-indigo-400 transition-all duration-300"
-          >BoolBnB</a
-        >
+        <a href="/">
+          <img
+            class="dark hidden dark:block hover:scale-105"
+            src="/img/boolbnb-logo.png"
+            alt="Logo Dark Mode"
+          />
+        </a>
       </div>
 
       <!-- centro -->
